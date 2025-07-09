@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 # --- SUAS CREDENCIAIS AQUI ---
 # Cole seu Client ID e Client Secret aqui, dentro das aspas!
-CLIENT_ID = 'a5bc910df7a74aefa1142c1c6af5c2b5'
-CLIENT_SECRET = '64413ae25ab748d5843e771e30fcecfe'
+CLIENT_ID = 'YOUR_CLIENT_ID_HERE'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET_HERE'
 # --- FIM DAS CREDENCIAIS ---
 
 # Define as credenciais para o Spotipy
