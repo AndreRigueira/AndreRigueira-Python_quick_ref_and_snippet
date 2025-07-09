@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 # --- SUAS CREDENCIAIS E REDIRECT URI AQUI ---
 # Cole seu Client ID e Client Secret aqui
-CLIENT_ID = 'a5bc910df7a74aefa1142c1c6af5c2b5'
-CLIENT_SECRET = '64413ae25ab748d5843e771e30fcecfe'
+CLIENT_ID = 'YOUR_CLIENT_ID_HERE'
+CLIENT_SECRET = 'YOUR_CLIENT_SECRET_HERE'
 # O URI de redirecionamento que você configurou no painel de desenvolvedores do Spotify
 REDIRECT_URI = 'http://127.0.0.1:8888/callback' # Ou http://localhost/
 # --- FIM DAS CREDENCIAIS ---
