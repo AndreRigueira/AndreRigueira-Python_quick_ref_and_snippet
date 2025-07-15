@@ -1,11 +1,13 @@
-import spotipy
+import spotipy, os
 from spotipy.oauth2 import SpotifyOAuth
+from dotenv import load_dotenv
 import json # Importamos a biblioteca json
 
 # --- SUAS CREDENCIAIS E REDIRECT URI AQUI ---
+load_dotenv()
 # Cole seu Client ID e Client Secret aqui
-CLIENT_ID = 'a5bc910df7a74aefa1142c1c6af5c2b5'
-CLIENT_SECRET = '64413ae25ab748d5843e771e30fcecfe'
+CLIENT_ID = os.getenv('CLIENT_ID')
+CLIENT_SECRET = os.getenv('CLIENT_SECRET')
 # O URI de redirecionamento que você configurou no painel de desenvolvedores do Spotify
 REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 # --- FIM DAS CREDENCIAIS ---
